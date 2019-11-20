@@ -18,7 +18,8 @@ steps:
   inputs:
     versionSpec: '$(python.version)'
   displayName: 'Use Python $(python.version)'
-script: python "add.py"
+- script: python "add.py"
+
 
 - task: PythonScript@0
   inputs:
